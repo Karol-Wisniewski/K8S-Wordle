@@ -1,0 +1,15 @@
+apiVersion: v1
+data:
+  MONGODB_URL: "mongodb+srv://karolwisniewski2001:Konkola311@wordle.dbvmneg.mongodb.net/?retryWrites=true&w=majority"
+  KEYCLOAK_CLIENT_ID: "baw"
+  KEYCLOAK_SERVER_URL: "http://keycloak.project.baw/"
+  KEYCLOAK_REALM: "baw"
+  FRONTEND_ORIGIN: "http://project.baw"
+
+
+kind: ConfigMap
+metadata:
+  name: backend-config
+  labels:
+    app: baw-project
+    type: backend
