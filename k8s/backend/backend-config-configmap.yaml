@@ -1,6 +1,6 @@
 apiVersion: v1
 data:
-  MONGODB_URL: "mongodb+srv://karolwisniewski2001:Konkola311@wordle.dbvmneg.mongodb.net/?retryWrites=true&w=majority"
+  MONGODB_URL: "mongodb+srv://<login>:<password>@wordle.dbvmneg.mongodb.net/?retryWrites=true&w=majority"
   KEYCLOAK_CLIENT_ID: "baw"
   KEYCLOAK_SERVER_URL: "http://keycloak.project.baw/"
   KEYCLOAK_REALM: "baw"
